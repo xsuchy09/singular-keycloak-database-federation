@@ -9,7 +9,7 @@
     <artifactId>singular-user-storage-provider</artifactId>
     <groupId>org.opensingular</groupId>
     <name>singular-user-storage-provider</name>
-    <version>2.4.14</version>
+    <version>2.4.15</version>
 
     <dependencies>
         <dependency>
@@ -72,7 +72,7 @@
         <dependency>
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
-            <version>6.3.0</version>
+            <version>7.0.2</version>
         </dependency>
 
         <!-- https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/ -->
@@ -86,7 +86,7 @@
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
-            <version>1.18.0</version>
+            <version>1.19.0</version>
         </dependency>
 
 
@@ -94,7 +94,7 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.19.0</version>
+            <version>2.20.0</version>
         </dependency>
 
         <!-- https://repo1.maven.org/maven2/net/sourceforge/jtds/jtds/ -->
@@ -108,7 +108,7 @@
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
-            <version>9.3.0</version>
+            <version>9.4.0</version>
         </dependency>
 
         <!-- https://repo1.maven.org/maven2/org/postgresql/postgresql/ -->
@@ -144,7 +144,7 @@
         <dependency>
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>7.0.5.Final</version>
+            <version>7.0.9.Final</version>
             <scope>provided</scope>
         </dependency>
 
@@ -165,7 +165,7 @@
                 <!-- https://repo1.maven.org/maven2/org/wildfly/plugins/wildfly-maven-plugin/ -->
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
-                <version>5.1.3.Final</version>
+                <version>5.1.4.Final</version>
                 <configuration>
                     <skip>false</skip>
                 </configuration>
@@ -203,11 +203,11 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <!-- https://repo1.maven.org/maven2/org/projectlombok/lombok/ -->
-        <lombok.version>1.18.38</lombok.version>
+        <lombok.version>1.18.40</lombok.version>
         <!-- https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/ -->
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
 
-        <keycloak.version>26.3.1</keycloak.version>
+        <keycloak.version>26.3.3</keycloak.version>
 
         <!-- https://repo1.maven.org/mavenccd 2/com/google/auto/service/auto-service/ -->
         <auto-service.version>1.1.1</auto-service.version>
